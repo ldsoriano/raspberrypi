@@ -188,7 +188,7 @@ latlong=lat:long'
 #                                     SETUP THE TOPIC DATA STREAMS FOR WALMART EXAMPLE
 
 maintopic='iot-mainstream'
-preprocesstopic='iot-preprocess'
+preprocesstopic='iot-preprocess2'
 maintopic,producerid=datasetup(maintopic,preprocesstopic)
 print("Started Preprocessing: ", maintopic,producerid)
 
